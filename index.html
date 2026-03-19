@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shared Assets</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      color: #222;
+      background: #fafafa;
+    }
+    h1 { border-bottom: 2px solid #ddd; padding-bottom: .4rem; }
+    nav ul { display: flex; gap: 1rem; list-style: none; padding: 0; }
+    nav a { text-decoration: none; color: #0066cc; }
+    nav a:hover { text-decoration: underline; }
+    section { margin-top: 2rem; }
+    h2 { text-transform: capitalize; color: #444; }
+    ul { list-style: disc; padding-left: 1.5rem; }
+    li { margin: .3rem 0; }
+    a { color: #0066cc; word-break: break-all; }
+    a:hover { text-decoration: underline; }
+    .empty { color: #888; font-style: italic; }
+    footer { margin-top: 3rem; font-size: .8rem; color: #999; border-top: 1px solid #ddd; padding-top: .5rem; }
+  </style>
+</head>
+<body>
+  <h1>Shared Assets</h1>
+  <nav>
+    <ul>
+      <li><a href="#images">images</a></li>
+    </ul>
+  </nav>
+  <section id="images">
+    <h2>images</h2>
+    <p class="empty">No files yet.</p>
+  </section>
+  <footer>Auto-generated index &mdash; do not edit by hand.</footer>
+</body>
+</html>
