@@ -9,7 +9,7 @@ CONTENT_FOLDERS = ["images"]
 
 # File extensions to include per folder (empty set = include all)
 EXTENSIONS: dict[str, set[str]] = {
-    "images": {".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".bmp"},
+    "images": {".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".bmp", ".webm", ".mov", ".mp4", ".ogg", ".mp3"},
 }
 
 # Files/folders to ignore
