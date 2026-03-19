@@ -1,12 +1,7 @@
 name: Update index
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - "images/**"
-      - "generate_index.py"
+  workflow_dispatch:
 
 permissions:
   contents: write
